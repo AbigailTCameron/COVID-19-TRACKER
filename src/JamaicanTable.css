@@ -1,0 +1,21 @@
+.ja__table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 500px;
+  color: #6a5d5d;
+  background-color: white;
+}
+
+.ja__table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ja__table td {
+  padding: 0.5rem;
+  border: none;
+}
+
+.ja__table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
